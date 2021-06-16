@@ -38,7 +38,7 @@ get_bitbar_plugins_folder() {
 
 install_bitbar() {
   echo 'installing bitbar'
-  brew install --cask bitbar
+  brew cask install bitbar
 }
 
 launch_bitbar() {
